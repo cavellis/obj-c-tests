@@ -7,8 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "TestClass.h"
+#import "SomeOtherClass.h"
 
 int main(int argc, char *argv[])
 {
+    TestClass * test = [[TestClass alloc]init];
+    Boolean isTestClass = [test isKindOfClass:[SomeOtherClass class]];
+    NSLog(@"is testClass? %d", isTestClass);
+    
     return NSApplicationMain(argc, (const char **)argv);
 }

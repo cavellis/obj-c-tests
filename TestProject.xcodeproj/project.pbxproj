@@ -17,6 +17,8 @@
 		03FEA30315D5FD91007FF525 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FEA2E315D5FD90007FF525 /* Cocoa.framework */; };
 		03FEA30B15D5FD91007FF525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03FEA30915D5FD91007FF525 /* InfoPlist.strings */; };
 		03FEA30E15D5FD91007FF525 /* TestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FEA30D15D5FD91007FF525 /* TestProjectTests.m */; };
+		03FEA31915D60463007FF525 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FEA31815D60463007FF525 /* TestClass.m */; };
+		03FEA31C15D605AA007FF525 /* SomeOtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FEA31B15D605AA007FF525 /* SomeOtherClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		03FEA30A15D5FD91007FF525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03FEA30C15D5FD91007FF525 /* TestProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProjectTests.h; sourceTree = "<group>"; };
 		03FEA30D15D5FD91007FF525 /* TestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectTests.m; sourceTree = "<group>"; };
+		03FEA31715D60463007FF525 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		03FEA31815D60463007FF525 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		03FEA31A15D605AA007FF525 /* SomeOtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeOtherClass.h; sourceTree = "<group>"; };
+		03FEA31B15D605AA007FF525 /* SomeOtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeOtherClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				03FEA2F615D5FD90007FF525 /* AppDelegate.m */,
 				03FEA2F815D5FD91007FF525 /* MainMenu.xib */,
 				03FEA2EA15D5FD90007FF525 /* Supporting Files */,
+				03FEA31715D60463007FF525 /* TestClass.h */,
+				03FEA31815D60463007FF525 /* TestClass.m */,
+				03FEA31A15D605AA007FF525 /* SomeOtherClass.h */,
+				03FEA31B15D605AA007FF525 /* SomeOtherClass.m */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -263,6 +273,8 @@
 			files = (
 				03FEA2F015D5FD90007FF525 /* main.m in Sources */,
 				03FEA2F715D5FD90007FF525 /* AppDelegate.m in Sources */,
+				03FEA31915D60463007FF525 /* TestClass.m in Sources */,
+				03FEA31C15D605AA007FF525 /* SomeOtherClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
